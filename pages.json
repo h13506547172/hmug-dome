@@ -27,9 +27,14 @@
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false
       }
-
     }
   ],
+  "subPackages": [{
+    "root": "subpackage",
+    "pages": [{
+      "path": "detail/detail"
+    }]
+  }],
   "tabBar": {
     "list": [{
         "pagePath": "pages/home/home",
