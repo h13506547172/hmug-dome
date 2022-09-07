@@ -19,4 +19,10 @@ message.success = function(title) {
     duration: 1000
   })
 }
+message.loading = function(title, duration) {
+  uni.showToast({
+    title,
+    icon: "loading",
+  })
+}
 export default message

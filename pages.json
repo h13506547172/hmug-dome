@@ -33,6 +33,15 @@
     "root": "subpackage",
     "pages": [{
       "path": "detail/detail"
+    }, {
+      "path": "goodList/goodList",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#eee",
+        "onReachBottomDistance": 100
+      }
+
     }]
   }],
   "tabBar": {
@@ -60,12 +69,16 @@
       }
     ]
   },
-  "usingComponents": {},
+
   "globalStyle": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "黑马优购",
     "navigationBarBackgroundColor": "#c00000",
-    "backgroundColor": "#F8F8F8"
+    "backgroundColor": "#F8F8F8",
+    "usingComponents": {
+      "van-card": "/wxcomponents/vant/card/index"
+    },
+    "ignoreDevUnusedFiles": false
   },
   "uniIdRouter": {}
 }
